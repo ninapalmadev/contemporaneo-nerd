@@ -11,9 +11,12 @@
 </head>
 <body>
 
-    <header class="main-header" id="top">
-        <img src="assets/logo-geek.png" alt="logo dia do orgulho geek">
-            <nav id="nav-topo">
+    <div id="topo-header">
+        <header class="main-header" id="top">
+
+            <img src="assets/logo-geek.png" alt="logo dia do orgulho geek">
+
+            <nav id="nav-topo" class="dp-menu">
                 <div class="container">
                     <ul>
                         <li>
@@ -29,7 +32,15 @@
                             <a href="#">DesenKaixa</a>
                         </li>
                         <li>
-                            <a href="#">Mais</a>
+                            <a href="#">Mais &darr;</a>
+                                <ul>
+                                    <li>
+                                        <a href="#">Sr.K</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Nerdologia</a>
+                                    </li>
+                                </ul>
                         </li>
                         <li>
                             <a href="#">NerdStore</a>
@@ -40,11 +51,13 @@
                     </ul>
                 </div>
             </nav>
+
             <form>
                 <input type="search" name="busca-principal" id="busca-principal" placeholder="Ex: NC 700">
                 <button>Buscar</button>
             </form>
-    </header>
+        </header>
+    </div>
     
     <div id="main">
         <main>
