@@ -1,0 +1,91 @@
+#topo-header {
+    background-color: var(--color-blue-first);
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    margin: auto;
+}
+
+.main-header img {
+    max-height: 70px;
+    padding: 5px 10px;
+}
+
+/* menu */
+#nav-topo .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-topo .container ul li {
+    position: relative;
+    font-weight: bold;
+    display: inline-block;
+}
+
+#nav-topo .container ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 1.3em;
+    padding: 15px;
+}
+
+#nav-topo .container li a:hover{
+    color: var(--color-blue-light);
+}
+
+/*sub-menu*/
+
+#nav-topo .container ul ul {
+    display: none;
+}
+
+#nav-topo .container ul li:hover>ul{
+    display: block;
+    position: absolute;
+    background-color: var(--color-blue-first);   
+}
+
+#nav-topo .container ul li:hover>ul li {
+    background-color: var(--color-blue-first);
+    padding: 25px 0px;   
+}
+
+/* form */
+
+.main-header form {
+    border: 2px solid var(--color-blue-light);
+    border-radius: 15px;
+    display: flex;
+    padding-left: 10px;
+}
+
+.main-header form input {
+    background-color: var(--color-blue-first);
+    border: none;
+}
+
+
+.main-header form button {
+    color: var(--color-purple);
+    background-color: var(--color-blue-light);
+    border: 2px solid var(--color-blue-light);
+    border-radius: 10px;
+    font-family: var(--fonte-paragrafos);
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+
+
+
+
