@@ -4,43 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contemporêneo Nerd</title>
+        <title>Contemporêneo Nerd</title>
      <link rel="stylesheet" href="style/reset.css">
      <link rel="stylesheet" href="style/style.css">
      <link rel="stylesheet" href="style/components/main-header.css">
      <link rel="stylesheet" href="style/components/sub-header.css">
+     <link rel="stylesheet" href="style/components/site-main.css">
 </head>
 <body>
-
     <div id="topo-header">
-        <header class="main-header" id="top">
-            <img src="assets/logo-geek.png" alt="logo dia do orgulho geek">
-            <!--menu-->
-            <nav id="nav-topo" class="dp-menu">
-                <div class="container">
-                    <ul>
+        <header class="main-header">
+            
+                <img src="assets/logo-geek.png" alt="logo dia do orgulho geek">
+                <nav class="nav-header">
+                    <button class="btn-mobile" aria-expanded="false">Menu
+                        <span class="mobile-hamburguer"></span>
+                    </button>
+                    <ul class="menu-header">
+                        <li><a href="#">NerdBunker</a></li>
                         <li><a href="#">NerdCast</a></li>
                         <li><a href="#">NerdOffice</a></li>
                         <li><a href="#">NerdPlayer</a></li>
+                        <li><a href="#">Mais</a></li>
                         <li><a href="#">DesenKaixa</a></li>
-                        <li>
-                            <a href="#">Mais &darr;</a>
-                            <!--sub-menu-->
-                                <ul>
-                                    <li><a href="#">Sr.K</a></li>
-                                    <li><a href="#">Nerdologia</a></li>
-                                </ul>
-                        </li>
-                        <li><a href="#">NerdStore</a></li>
+                        <li><a href="#">Nerdstore</a></li>
                         <li><a href="#">Anuncie</a></li>
                     </ul>
-                </div>
-            </nav>
-
-            <form>
-                <input type="search" name="busca-principal" id="busca-principal" placeholder="Ex: NC 700">
-                <button>Buscar</button>
-            </form>
+                </nav>
+                <form>
+                    <input type="search" name="busca-principal" id="busca-principal" placeholder="Ex: NC 700">
+                    <button>Buscar</button>
+                </form>
+            </div>
         </header>
     </div>
     <!--sub-header-->
@@ -68,15 +63,25 @@
                 <li><a href="#">Elden Ring</a></li>
             </ul>
         </div>
-    </section>  
-    
-
-    <div id="main">
-        <main>
-            <section>
-        
-            </section>
-            <section>
+    </section> 
+    <!--seção de notícias e novidades--> 
+    <main class="site-main">
+        <div id="main">
+            <div class="noticias">
+                <section class="section-novidades">
+                    <article>
+                        <img src="assets/avatar_2_titulo__szb4c2x-760x428.jpg" alt="avatar 2">
+                        <a href="#" class="link-imagem">Mussum Ipsum, cacilds vidis litro abertis</a>
+                        <h2 class="titulo-noticia"><a href="#">Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis.</a></h2>
+                    </article>
+                    <article>
+                        <img src="assets/cavaleiro_da_lua_episodio_5__7q1fiux5-760x428.jpg" alt="cavaleiro da lua episódio 5">
+                        <a href="#" class="link-imagem">Mussum Ipsum, cacilds vidis litro abertis</a>
+                        <h2 class="titulo-noticia"><a href="#">Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis.</a></h2>
+                    </article>
+                </section>
+            </div>
+            <!-- <section>
 
             </section>
             <section>
@@ -102,9 +107,10 @@
             </section>
             <section>
                 
-            </section>
-        </main>
-    </div>
+            </section> -->
+        </div>
+    </main>
+    
     <footer>
 
     </footer>
