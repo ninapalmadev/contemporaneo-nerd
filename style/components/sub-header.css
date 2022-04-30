@@ -1,57 +1,65 @@
-#sub-header {
-    background-color: var(--color-purple);
+.sub-header {
+    background-color: var(--color-azul-escuro2);
+    width: 100%;
+    padding: 1rem;
     height: 105px;
 }
 
-#sub-header .container {
+.sub-header .container {
     display: flex;
-    width: 1200px;
-    margin: auto;  
+    max-width: 1200px;
+    justify-content: center;  
 }
 
-#sub-header .container img {
+.sub-header .container img {
     height: 65px;
     padding: 10px;
 }
 
-#sub-header .container ul {
+.sub-header .container ul {
     display: flex;
     align-items: center;
 }
 
-#sub-header .container ul li {
+.sub-header .container ul li {
     position: relative;
     display: inline-block;
     font-weight: bold;
 }
 
-#sub-header .container ul li a{
-    color: var(--color-blue-light);
+.sub-header .container ul li a{
+    color: var(--color-azul-claro3);
     text-decoration: none;
     font-family: var(--fonte-principal);
-    font-weight: 400;
-    font-size: 1.4em;
-    padding: 20px;
+    font-size: 1.35em;
+    padding: 1rem;
 }
 
-#sub-header .container li a:hover{
+.sub-header .container li a:hover{
     color: #fff;
 }
 
 /*submenu-drop-img*/
 
-#sub-header .container ul ul {
+.sub-header .container ul ul {
     display: none;
 }
 
-#sub-header .container ul li:hover>ul{
+.sub-header .container ul li:hover>ul{
     display: block;
     position: absolute;
-    background-color: var(--color-blue-second); 
+    background-color: var(--color-azul-escuro2); 
 }
 
-#sub-header .container ul li:hover>ul li {
-    background-color: var(--color-blue-second);
+.sub-header .container ul li:hover>ul li {
+    background-color: var(--color-azul-escuro2);
     padding: 5px 0px; 
     display:flex;  
+    font-size: 1rem;
+}
+
+@media (max-width: 1100px){
+    .sub-header{
+        display: none;
+    }
 }
