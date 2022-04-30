@@ -4,18 +4,23 @@
 
 :root {
 
---fonte1: Verdana, Geneva, Tahoma, sans-serif;
---fonte-principal: 'Zilla Slab', serif;
---fonte-paragrafos: 'Chakra Petch', sans-serif;
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte-principal: 'Zilla Slab', serif;
+    --fonte-paragrafos: 'Chakra Petch', sans-serif;
 
---color-purple: #31124C; 
---color-blue-first: #011222;
---color-blue-second: #07334C; 
---color-blue-light: #64E3FF;
---color-acqua: #D5FDFF;  
-
+    --color-azul-escuro1:#2B335C;
+    --color-azul-escuro2:#394061;
+    --color-azul-claro1:#4F5EA8;
+    --color-azul-claro2:#677ADB;
+    --color-azul-claro3:#ADB6E1;
+    --color-branco:#fff;
+    --color-preto: #000;
 }
 
 * {
-    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
 }
