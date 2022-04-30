@@ -72,3 +72,20 @@
 .mais-vistos .item-vistos .link-vistos{
     color: var(--color-azul-escuro2);
 }
+
+@media (max-width: 1100px){ 
+    .main .noticias .section-novidades,
+    .main .noticias-second{
+        display: flex;
+        flex-direction: column;
+    }
+    .main .noticias-second{
+        background-color: var(--color-azul-claro3)
+    }
+    .main .section-novidades img{
+        margin-bottom: 1rem;
+    }
+    .main {
+        font-size: 60%;
+    }
+}
